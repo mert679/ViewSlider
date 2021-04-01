@@ -48,7 +48,7 @@ nextbtn.addEventListener("click",function(){
   currentItem++
   if (currentItem>reviews.length-1) {
     currentItem=0;
-  }// in here we write if statement to come back to the start person and we assign 0 to be initial point.
+  }
   showPerson(currentItem);
 })
 // show prev person
