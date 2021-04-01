@@ -38,7 +38,7 @@ let currentItem=0;
 
 
 function showPerson(person){
-  const item = reviews[person];// in here we write reviews[person] in order tp we use index of array
+  const item = reviews[person];// in here we write reviews[person] in order to we use index of array
   img_area.src=item.img;
   info.textContent=item.text;
 }
